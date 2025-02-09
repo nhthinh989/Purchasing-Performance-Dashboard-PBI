@@ -21,29 +21,29 @@ The dataset (as attachment) contains global sales information of Superstore, inc
 ### Stage 1: Empathize
 |5W1H|---|
 |---|---|
-|Who will be viewing this Dashboard?|	Senior managers (CEO, Sales Manager, Marketing Manager, HR Manager, etc.)|
-|If we had to choose only one key Stakeholder, who would it be?| CEO|
-|What problem does this Dashboard solve?	| Market expansion strategy<br>Plan for improving the current market<br>Strategic product selection decisions<br>Sales personnel allocation plan|
-|Describe the problem in one sentence |	Assist the CEO in understanding the business performance (sales, returns) by region, product, and sales personnel, to support decision-making regarding market expansion, strategic product selection, and personnel allocation.|
-|When and where will Stakeholders view this Dashboard?| 1. When working independently, to grasp the business performance to carefully consider strategic decisions.<br>2. During strategy discussions with the team in meetings.|
-|Why do stakeholders need this Dashboard?| 1. To quickly understand the business performance of products, markets, and sales personnel.<br>2. To have a basis for selecting strategic products and target markets for expansion.<br>3. To consider the sales personnel allocation plan.<br>4. To determine whether business performance needs improvement in any specific market.|
-|How have stakeholders been achieving their goals so far?	| 1. Understand sales, returns, and growth rates across markets <br>--> Identify potential markets <br>--> Determine which markets need improvement <br>--> Plan to investigate causes and propose solutions)<br> 2. Understand sales, returns, and growth rates by product category --> Select strategic products<br>3. Track sales, performance growth, and regions managed by each sales representative --> Allocate personnel accordingly|
+|Who will be viewing this Dashboard?|	Senior managers (Purchasing Manager; Supply Chain Manager; Operations Manager...)|
+|If we had to choose only one key Stakeholder, who would it be?| Purchasing Manager|
+|What problem does this Dashboard solve?	| Nắm bắt tình hình tổng quan ở bộ phận thu mua<>Đánh giá chất lượng của nhà cung cấp |
+|Describe the problem in one sentence |	Giúp Purchasing manager nắm bắt tình hình tổng quan trong bộ phận mua sắm. Đồng thời đánh giá lại nhà cung cấp cho phù hợp để phát triển chiến lược hoạt động của công ty hơn nữa.|
+|When and where will Stakeholders view this Dashboard?|1. Khi xem xét hiệu suất của phòng ban trong cuộc họp hàng tuần hoặc hàng tháng<br>2. Đánh giá hiệu suất hàng ngày với nhóm, trong cuộc họp nhóm.<br>3. Sử dụng cá nhân khi lập kế hoạch và phân bổ nhiệm vụ cho các thành viên trong nhóm.|
+|Why do stakeholders need this Dashboard?| 1. Tối ưu hóa hiệu suất của phòng ban.<br>2. Phát triển kế hoạch mua sắm|
+|How have stakeholders been achieving their goals so far?	|1. Hiểu rõ hiệu suất <br>2. Xác định khía cạnh cần tối ưu <br>3. Xây dựng kế hoạch hành động để triển khai tối ưu hóa. <br>-> Managers sẽ theo dõi hiệu suất, gây ra tình trạng ra quyết định chậm trễ và thiếu chính xác.|
 
 |Empathy Map|---|
 |---|---|
-|**Thinking and feeling**<br>_What does the stakeholder think and feel?_|	The company is performing well, and your focus is on driving further growth with the immediate goal of reaching this year's revenue target. It's great to have that clear objective in mind while exploring strategies to enhance business performance!|
-|**Seeing**<br>_What does the stakeholder see?_|	The company is operating successfully on a global scale.<br>This year's revenue target has been set higher than the previous year's.|
-|**Saying and doing**<br>_What does the stakeholder say and do?_	|"I believe that expanding into new markets can help the company achieve its revenue goals".<br>"To increase revenue, I should also assess the current markets to identify any areas that require improvement".|
-|**Pains**<br>_What are the biggest problems and challenges?_|	1. What are the potential markets for expansion?<br>2. Is there a need to improve the current markets?<br>3. Which products should be prioritized for the new or existing markets?<br>4. Who will be responsible for the new market? Is there a need to adjust personnel allocation?|
-|**Gains**<br>_What are the opportunities and benefits?_|	With the analyzed data, the CEO will gain an accurate understanding of the business performance, allowing for the validation of assumptions and informed decision-making.|
+|**Thinking and feeling**<br>_What does the stakeholder think and feel?_|	Áp lực khi phải đảm bảo đặt hàng đúng số lượng và thời gian.|
+|**Seeing**<br>_What does the stakeholder see?_|	TBộ phận mua sắm bị phàn nàn về hiệu suất làm việc|
+|**Saying and doing**<br>_What does the stakeholder say and do?_	|Các khía cạnh nào cần được làm rõ|
+|**Pains**<br>_What are the biggest problems and challenges?_| Hiệu suất chung của bộ phận mua  như thế nào?<br>- Chi phí sản phẩm và giao hàng có được tối ưu hóa không?<br>- Giao hàng có đúng hạn không?<br>- Số lượng sản phẩm đã mua đủ chưa?<br>- Sản phẩm cung cấp có đạt tiêu chuẩn chất lượng không?|
+|**Gains**<br>_What are the opportunities and benefits?_|	Tối ưu hóa những vấn đề còn tồn đọng để nâng cao hiệu suất|
 
 ### Stage 2: Define Point of View
 |Northstar Metric|---|
 |---|---|
-|What VALUE you want to measure?|Total value generated from customers through sales.|
-|WHEN the value DELIVERY SUCCESS?|When an order is completed.|
-|Northstar Metric Name|Revenue|
-|WHY do you choose this metric?|Reflecting the business's sales performance, higher the revenue better the performance.|
+|What VALUE you want to measure?|Chi phí phải trả|
+|WHEN the value DELIVERY SUCCESS?|Khi sản phẩm được nhập hàng thành công|
+|Northstar Metric Name||
+|WHY do you choose this metric?|Cần phải giám sát chi tiêu cho các công việc mới có thể tối ưu một cách tốt nhất hiệu suất công việc|
 
 Dimension Data Group
 |**Group 1** - Location|**Group 2** - Product|**Group 3** - Salesman|**Group 4** - Time|
@@ -53,23 +53,21 @@ Dimension Data Group
 Define Point of View
 |View	|Description	|	Why	|
 |---|:---:|---|
-|**View1**| Market Analysis|	Identify potential markets for expansion and weak markets that need improvement.	|			
-|**View2**| Product Analysis|	Select strategic products for each market or for all markets.	|		
-|**View3**| Sales Person Analysis|	Select personnel responsible for the new market and reallocate personnel for existing markets (if necessary).|
+|**View1**| Overview|	Đánh giá hiệu suất của Bộ phận mua sắm|			
+|**View2**| Vendor Analysis|	Đánh giá chất lượng nhà cung cấp để tối ưu hóa giá sản phẩm, thời gian giao hàng.|		
 
 Growth Formula
 |Northstar Metric:|Revenue|
 |---|---|
-|View 1 breakdown	| Revenue by Market, by Time|
-|View 2 breakdown	| Revenue by Product, by Time, by Product & Market	|
-|View 3 breakdown	| Revenue by Sales Person |
+|View 1 breakdown	| Total Due & Breakdown, Shipping Cost và On-time delivery Overall|
+|View 2 breakdown	| Total Due by Vendor|
 
 
 ### Stage 3: Ideate
 Brainstorming
 |Idea Name|Layer 0 dimension| Layer 1 dimension|Layer 2 dimension|
 |---|---|---|---|
-|View 1: Market| 1. Total Revenue<br>2. Total Profit<br>3. Total Number of Customer|1. Revenue by market<br>2. Profit by market<br>3. Profit Margin by market<br>4. Customer number by market<br>5. Return Rate by market<br>6. YoY Growth Rate of Revenue by market|1. Revenue, profit by market, by category|
+|View 1: Market| 1. Total Due<br>2. Average Lead time<br>3.On-time delivery|1. Revenue by market<br>2. Profit by market<br>3. Profit Margin by market<br>4. Customer number by market<br>5. Return Rate by market<br>6. YoY Growth Rate of Revenue by market|1. Revenue, profit by market, by category|
 |View 2: Product|1. Total Revenue<br>2. Total Profit|1. Revenue by product category<br>2. Profit  by product category<br>3. Product Classification:<br>- High vol, High profit<br>- High vol, Low profit<br>- Low vol, High profit<br>- Low vol, Low profit<br>4. Profit margin by product category<br>5. Return rate by product category<br>6. YoY Growth Rate of Revenue by product category |1. Revenue, profit by category, by year|
 |View 3: Sales Person	|1. Total Revenue<br>2. Total Profit|1. Revenue by person<br>2. Profit by person<br>3. Profit margin by person<br>4. YoY Growth Rate of Revenue by person<br>5. Market by person|1. Revenue, profit by person, by category|
 
