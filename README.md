@@ -89,8 +89,8 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 ### **Data Modeling**
 <img width="451" alt="Image" src="https://github.com/user-attachments/assets/3519aa05-6645-43db-8768-e28d952cbf40" />
 
-### **View 1: Market Analysis**
-<img width="952" alt="Market" src="https://github.com/user-attachments/assets/90292d44-c85a-434d-b1cc-f3f4404f414e">
+### **View 1: Overview**
+<img width="652" alt="Image" src="https://github.com/user-attachments/assets/ecaecf5c-cc67-4dec-8d73-2d67f333b14c" />
 
 ➡️ Insights:
 - The company has its **_presence in all major markets_** around the world.
@@ -100,9 +100,8 @@ This is implementation and review stage. Prototype and Review dashboard multiple
   - **_Africa_** and **_EMEA_**: Has **_high customer numbers_** but **_negative profit_**.
   - **_Canada_**: Having **_strong YoY growth rate_** but **_few customers, low revenue_**
 
-### **View 2: Product Analysis**
-<img width="950" alt="Product" src="https://github.com/user-attachments/assets/4c8edaa8-0132-456e-b769-1225b51686ae">
-<img width="950" alt="Product-Market" src="https://github.com/user-attachments/assets/0256876b-f3a2-4de8-ac04-98691dc09b53">
+### **View 2: VendorVendor Analysis**
+<img width="653" alt="Image" src="https://github.com/user-attachments/assets/a365829b-e380-4e2f-9f41-60d84657d300" />
 
 ➡️ Insights:
 -	**_Copiers_** are the company’s **_best-selling product overall_**, except for **_US market_**, where **_phones_** and **_chairs_** out-perform copiers.
