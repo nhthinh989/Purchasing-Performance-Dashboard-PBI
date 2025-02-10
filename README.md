@@ -23,7 +23,7 @@ The dataset (as attachment) contains global sales information of Superstore, inc
 |---|---|
 |Who will be viewing this Dashboard?|	Senior managers (Purchasing Manager; Supply Chain Manager; Operations Manager...)|
 |If we had to choose only one key Stakeholder, who would it be?| Purchasing Manager|
-|What problem does this Dashboard solve?	| Nắm bắt tình hình tổng quan ở bộ phận thu mua<>Đánh giá chất lượng của nhà cung cấp |
+|What problem does this Dashboard solve?	| Nắm bắt tình hình tổng quan ở bộ phận thu mua<br>Đánh giá chất lượng của nhà cung cấp |
 |Describe the problem in one sentence |	Giúp Purchasing manager nắm bắt tình hình tổng quan trong bộ phận mua sắm. Đồng thời đánh giá lại nhà cung cấp cho phù hợp để phát triển chiến lược hoạt động của công ty hơn nữa.|
 |When and where will Stakeholders view this Dashboard?|1. Khi xem xét hiệu suất của phòng ban trong cuộc họp hàng tuần hoặc hàng tháng<br>2. Đánh giá hiệu suất hàng ngày với nhóm, trong cuộc họp nhóm.<br>3. Sử dụng cá nhân khi lập kế hoạch và phân bổ nhiệm vụ cho các thành viên trong nhóm.|
 |Why do stakeholders need this Dashboard?| 1. Tối ưu hóa hiệu suất của phòng ban.<br>2. Phát triển kế hoạch mua sắm|
@@ -32,7 +32,7 @@ The dataset (as attachment) contains global sales information of Superstore, inc
 |Empathy Map|---|
 |---|---|
 |**Thinking and feeling**<br>_What does the stakeholder think and feel?_|	Áp lực khi phải đảm bảo đặt hàng đúng số lượng và thời gian.|
-|**Seeing**<br>_What does the stakeholder see?_|	TBộ phận mua sắm bị phàn nàn về hiệu suất làm việc|
+|**Seeing**<br>_What does the stakeholder see?_|Bộ phận mua sắm bị phàn nàn về hiệu suất làm việc|
 |**Saying and doing**<br>_What does the stakeholder say and do?_	|Các khía cạnh nào cần được làm rõ|
 |**Pains**<br>_What are the biggest problems and challenges?_| Hiệu suất chung của bộ phận mua  như thế nào?<br>- Chi phí sản phẩm và giao hàng có được tối ưu hóa không?<br>- Giao hàng có đúng hạn không?<br>- Số lượng sản phẩm đã mua đủ chưa?<br>- Sản phẩm cung cấp có đạt tiêu chuẩn chất lượng không?|
 |**Gains**<br>_What are the opportunities and benefits?_|	Tối ưu hóa những vấn đề còn tồn đọng để nâng cao hiệu suất|
