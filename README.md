@@ -87,7 +87,7 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 
 ## **III. DASHBOARD**
 ### **Data Modeling**
-<img width="950" alt="DataModeling" src="https://github.com/user-attachments/assets/9413c9a9-945c-4ab6-ad49-932c0e682b86">
+<img width="451" alt="Image" src="https://github.com/user-attachments/assets/3519aa05-6645-43db-8768-e28d952cbf40" />
 
 ### **View 1: Market Analysis**
 <img width="952" alt="Market" src="https://github.com/user-attachments/assets/90292d44-c85a-434d-b1cc-f3f4404f414e">
