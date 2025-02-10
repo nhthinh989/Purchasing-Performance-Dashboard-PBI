@@ -108,11 +108,6 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 -	**_Tables_** has poor performance with **_negative profit margins_** over the past four years, resulting in losses.
 -	The **_return rate for binders_** has reached **_25%_**, which is **_highest among all_**.
 
-### **View 3: Sales Agent Analysis**
-<img width="950" alt="Salesman" src="https://github.com/user-attachments/assets/a638370e-018d-45e6-84e4-2e130cb034ff">
-
-➡️ Insights:
--	**_Sales Agent of APAC-South East Asia market_**: performance is not very well with **_negative profit_** and a **_profit margin_** of only **_4%_**, although the he is **_selling key products_** such as copiers, phones, and bookcases in his market-in-charge.
 
 ## **IV. INSIGHTS & RECOMMENDATIONS**
 ### 1. Market Expansion
