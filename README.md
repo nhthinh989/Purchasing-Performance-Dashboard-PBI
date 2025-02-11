@@ -1,7 +1,7 @@
 # Procurement-Performance-Dashboard-PBI
 
 ## **I.INTRODUCTION**
-In this project, a **_strategic dashboard_** was developed using _**Design Thinking**_ approach and _**Power BI**_ tools (**_DAX_**, **_Power Query_**, and **_Visualization_** tools) to analyze **_global sales performance_** over 4 years. The dashboard aimed to assist senior managers in **_understanding business performance by region, product, and sales personnel,_** which led to **_decisions_** in **_Market expansion_**, **_Market optimization_**, and **_Product selection_**.
+In this project, a **operation dashboard_** was developed using _**Design Thinking**_ approach and _**Power BI**_ tools (**_DAX_**, **_Power Query_**, and **_Visualization_** tools) to analyze **_global sales performance_** over 4 years. The dashboard aimed to assist senior managers in **_understanding business performance by region, product, and sales personnel,_** which led to **_decisions_** in **_Market expansion_**, **_Market optimization_**, and **_Product selection_**.
 
 ### **1. BUSINESS QUESTIONS**
 Adventure Works Cycles is a bicycle manufacturing company that operates across multiple business functions. Senior management of Adventure Works Cycles requires a detailed understanding of the company’s procurement efficiency to optimize inventory management and cost control in relation to:
@@ -67,20 +67,18 @@ Growth Formula
 Brainstorming
 |Idea Name|Layer 0 dimension| Layer 1 dimension|Layer 2 dimension|
 |---|---|---|---|
-|View 1: Market| 1. Total Due<br>2. Average Lead time<br>3.On-time delivery|1. Revenue by market<br>2. Profit by market<br>3. Profit Margin by market<br>4. Customer number by market<br>5. Return Rate by market<br>6. YoY Growth Rate of Revenue by market|1. Revenue, profit by market, by category|
-|View 2: Product|1. Total Revenue<br>2. Total Profit|1. Revenue by product category<br>2. Profit  by product category<br>3. Product Classification:<br>- High vol, High profit<br>- High vol, Low profit<br>- Low vol, High profit<br>- Low vol, Low profit<br>4. Profit margin by product category<br>5. Return rate by product category<br>6. YoY Growth Rate of Revenue by product category |1. Revenue, profit by category, by year|
-|View 3: Sales Person	|1. Total Revenue<br>2. Total Profit|1. Revenue by person<br>2. Profit by person<br>3. Profit margin by person<br>4. YoY Growth Rate of Revenue by person<br>5. Market by person|1. Revenue, profit by person, by category|
+|View 1: Market| 1. Total Due<br>2. Average Lead time<br>3.On-time delivery<br>4. Total Shipping Cost<br>5.Total Order<br>6.Total Tax|1. Shipping cost by vendor<br>2. Breakdown of TotalDue<br>|1. TotalDue by time (Year/Quater/Month/Day)<br>Rejection by Product|
+|View 2: Product|1. Total Vendor<br>- Active and not<br>- Prefer and not<br>2. Rating Vendor|1. Subtotal by Vendor<br>2. Standard price and Last Receipt Cost of each Vendor produc |Rejection Rate vs Standard Price & Subtotal|
 
 Structure idea
 |---|	Metric 1 | Metric 2	| Metric 3	| Metric 4 |
 |---|---|---|---|---|
-|Scorecard	|Revenue	|Number of customers	|Profit	|Profit Margin|
+|Scorecard	|TotalDue	|On-time delivery |AverageLeadTime	|ShippingCost|
 
 |Idea Name	| Highly important info|	Important info | Detailed info |
 |---|---|---|---|
-|View 1|1. Revenue by market<br>2. Profit by market<br>3. Profit Margin by market<br>4. Customer number by market<br>5. Return Rate by market<br>6. YoY Growth Rate of Revenue by market|1. Total Revenue<br>2. Total Profit<br>3. Total Number of Customer|1. Revenue, profit by market, by category<br>2. Market details"	|
-|View 2|1. Revenue by product category<br>2. Profit  by product category<br>3. Product Classification:<br>- High vol, High profit<br>- High vol, Low profit<br>- Low vol, High profit<br>- Low vol, Low profit<br>4. Profit margin by product category<br>5. Return rate by product category<br>6. YoY Growth Rate of Revenue by product category|1. Total Revenue<br>2. Total Profit |1. Revenue, profit by category, by year|
-|View 3	|1. Revenue by person<br>2. Profit by person<br>3. Profit margin by person<br>4. YoY Growth Rate of Revenue by person|1. Total Revenue<br>2. Total Profit|1. Market by person<br>2. Sales person details|	
+|View 1|1. Breakdown of TotalDue<br>2. AverageLeadTime<br>3.On-time delivery|1. TotalShippingCost<br>2. Total Order|1. TotalDue by time<br>2. Rejection Analysis	|
+|View 2|1. Total vendor<br>2. Total active, prefer & not by vendors<br>3. CreditRating by vendor|1. Subtotal by Vendor<br> |1. Rejection Rate vs Standard Price & Subtotal<br>2. Standard price and Last Receipt Cost of every Vendor product|
 
 ### Stage 4: Prototype & Review
 This is implementation and review stage. Prototype and Review dashboard multiple times to achieve the final dashboard.
