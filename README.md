@@ -1,7 +1,7 @@
 # Procurement-Performance-Dashboard-PBI
 
 ## **I.INTRODUCTION**
-In this project, a **operation dashboard_** was developed using _**Design Thinking**_ approach and _**Power BI**_ tools (**_DAX_**, **_Power Query_**, and **_Visualization_** tools) to analyze **_global sales performance_** over 4 years. The dashboard aimed to assist senior managers in **_understanding business performance by region, product, and sales personnel,_** which led to **_decisions_** in **_Market expansion_**, **_Market optimization_**, and **_Product selection_**.
+In this project, a _**operation dashboard**_ was developed using _**Design Thinking**_ approach and _**Power BI**_ tools (**_DAX_**, **_Power Query_**, and **_Visualization_** tools) to analyze **_global sales performance_** over 4 years. The dashboard aimed to assist senior managers in **_understanding business performance by region, product, and sales personnel,_** which led to **_decisions_** in **_Market expansion_**, **_Market optimization_**, and **_Product selection_**.
 
 ### **1. BUSINESS QUESTIONS**
 Adventure Works Cycles is a bicycle manufacturing company that operates across multiple business functions. Senior management of Adventure Works Cycles requires a detailed understanding of the company’s procurement efficiency to optimize inventory management and cost control in relation to:
@@ -25,24 +25,7 @@ The dataset (as attachment) contains global sales information of Superstore, inc
 |If we had to choose only one key Stakeholder, who would it be?| Purchasing Manager|
 |What problem does this Dashboard solve?	| Nắm bắt tình hình tổng quan ở bộ phận thu mua<br>Đánh giá chất lượng của nhà cung cấp |
 |Describe the problem in one sentence |	Giúp Purchasing manager nắm bắt tình hình tổng quan trong bộ phận mua sắm. Đồng thời đánh giá lại nhà cung cấp cho phù hợp để phát triển chiến lược hoạt động của công ty hơn nữa.|
-|When and where will Stakeholders view this Dashboard?|1. Khi xem xét hiệu suất của phòng ban trong cuộc họp hàng tuần hoặc hàng tháng<br>2. Đánh giá hiệu suất hàng ngày với nhóm, trong cuộc họp nhóm.<br>3. Sử dụng cá nhân khi lập kế hoạch và phân bổ nhiệm vụ cho các thành viên trong nhóm.|
-|Why do stakeholders need this Dashboard?| 1. Tối ưu hóa hiệu suất của phòng ban.<br>2. Phát triển kế hoạch mua sắm|
-|How have stakeholders been achieving their goals so far?	|1. Hiểu rõ hiệu suất <br>2. Xác định khía cạnh cần tối ưu <br>3. Xây dựng kế hoạch hành động để triển khai tối ưu hóa. <br>-> Managers sẽ theo dõi hiệu suất, gây ra tình trạng ra quyết định chậm trễ và thiếu chính xác.|
-
-|Empathy Map|---|
-|---|---|
-|**Thinking and feeling**<br>_What does the stakeholder think and feel?_|	Áp lực khi phải đảm bảo đặt hàng đúng số lượng và thời gian.|
-|**Seeing**<br>_What does the stakeholder see?_|Bộ phận mua sắm bị phàn nàn về hiệu suất làm việc|
-|**Saying and doing**<br>_What does the stakeholder say and do?_	|Các khía cạnh nào cần được làm rõ|
-|**Pains**<br>_What are the biggest problems and challenges?_| Hiệu suất chung của bộ phận mua  như thế nào?<br>- Chi phí sản phẩm và giao hàng có được tối ưu hóa không?<br>- Giao hàng có đúng hạn không?<br>- Số lượng sản phẩm đã mua đủ chưa?<br>- Sản phẩm cung cấp có đạt tiêu chuẩn chất lượng không?|
-|**Gains**<br>_What are the opportunities and benefits?_|	Tối ưu hóa những vấn đề còn tồn đọng để nâng cao hiệu suất|
-
-### Stage 2: Define Point of View
-|Northstar Metric|---|
-|---|---|
-|What VALUE you want to measure?|Chi phí phải trả|
-|WHEN the value DELIVERY SUCCESS?|Khi sản phẩm được nhập hàng thành công|
-|Northstar Metric Name||
+|When and where will Stakeholders view this Dashboard?|1. Khi xem xét hiệu suất của phòng ban trong cuộc họp hàng tuần hoặc hàng tháng<br>2. Đánh giá TotalDue|
 |WHY do you choose this metric?|Cần phải giám sát chi tiêu cho các công việc mới có thể tối ưu một cách tốt nhất hiệu suất công việc|
 
 Dimension Data Group
@@ -90,49 +73,51 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 ### **View 1: Overview**
 <img width="652" alt="Image" src="https://github.com/user-attachments/assets/ecaecf5c-cc67-4dec-8d73-2d67f333b14c" />
 
-➡️ Insights:
-- The company has its **_presence in all major markets_** around the world.
-  - **_LATAM_**: Contributes **_highest revenue and profit_**, average rate of goods returned.
-  - **_APAC_**: **_Highest YoY growth rate & customers count_**, ranks **_second in revenue_**, but exhibits **_low profit margins_**.
-  - **_US Market_**: Ranks **_second in profit_**, this market has **_surprisingly high profit margin_**, an average number of customers, but **_low revenue_**.
-  - **_Africa_** and **_EMEA_**: Has **_high customer numbers_** but **_negative profit_**.
-  - **_Canada_**: Having **_strong YoY growth rate_** but **_few customers, low revenue_**
-
-### **View 2: VendorVendor Analysis**
+### **View 2: Vendor Analysis**
 <img width="653" alt="Image" src="https://github.com/user-attachments/assets/a365829b-e380-4e2f-9f41-60d84657d300" />
 
-➡️ Insights:
--	**_Copiers_** are the company’s **_best-selling product overall_**, except for **_US market_**, where **_phones_** and **_chairs_** out-perform copiers.
--	**_Tables_** has poor performance with **_negative profit margins_** over the past four years, resulting in losses.
--	The **_return rate for binders_** has reached **_25%_**, which is **_highest among all_**.
-
-
 ## **IV. INSIGHTS & RECOMMENDATIONS**
-### 1. Market Expansion
-- ***Market Overview***:
-  - The company has established presence in all major global markets. Rather than entering a completely new market, it is recommended to **_expand within the existing market_**. **_Canada_** market is **_recommended_**.
-  - Despite Canada's strong Year-over-Year (YoY) growth rate and profit margin, its customer base remains limited, resulting in lower revenue. <br>--> It is proposed to develop a **_strategy to reach a broader customer segment_** in **_Canada_**.
+## 1. Chi phí sản phẩm và giao hàng có được tối ưu hóa không?
 
-- ***Sales Agent***:
-  - **_Nicole Hansen_** is currently **_responsible for the Canadian market_**. The revenue, profit margin, and YoY growth rate indicators are **_performing well_**. <br>--> It is advisable to **_continue_** his/her oversight of this market.
+### Chi phí Sản phẩm:
+**Insight:**  
+- Hầu hết các sản phẩm có giá khi mua cao hơn giá chuẩn, với chênh lệch trung bình khoảng **1.6** → chi phí nhập hàng chưa được tối ưu hóa.  
+- Một số sản phẩm có mức chênh lệch đáng kể, đạt tới **10.46** (*All-Purpose Bike* của *Green Lake Bike*) → tăng chi phí vận hành & ảnh hưởng lợi nhuận.  
 
-- ***Product Strategy***:
-  - Copiers are the company’s best-selling product overall. <br>--> It is suggested that **_copiers_** be positioned as a **_strategic product for the company_**.
+**Recommendation:**  
+- Thương lượng lại với nhà cung cấp để điều chỉnh về giá chuẩn.  
+- Theo dõi các trường hợp vượt chuẩn và áp dụng quy trình kiểm tra giá trước khi đặt hàng.  
+- Tạo báo cáo cảnh báo cho các sản phẩm có chi phí nhập vượt mức chuẩn.  
 
-### 2. Current Market Optimization
-- ***LATAM Market***: **_Maintain the current strategy_** for this market as this market has been the best performer overall.
+### Chi phí Giao hàng:
+**Insight:**  
+- Chi phí giao hàng lớn nhất đến từ *Cargo Transport 5* (**0.73M**), chiếm phần lớn chi phí vận chuyển so với các công ty khác như:  
+  - *ZY - Express*: **0.34M**  
+  - *Overnight J-FAST*: **0.27M**  
 
-- ***APAC Market***:
-  - This market is growing rapidly, has the highest number of customers, and ranks second in revenue, though it exhibits low profit margins. <br>--> It is recommended to **_investigate the reasons_** for the **_low profit margins_** and to develop **_strategies_** to **_enhance profitability from existing customer base_** by either increasing sales or improving profit margins.
+**Recommendation:**  
+- So sánh và đánh giá các nhà cung cấp để tìm ra giải pháp tối ưu hơn về chi phí.  
+- Cân nhắc hợp nhất lô hàng hoặc thương lượng giá với *Cargo Transport 5*.  
 
-- ***US Market***:
-  - Ranked second in profit, this market has an unexpectedly high profit margin, an average number of customers, but low revenue. <br>--> It is proposed to develop **_strategies_** to drive **_more customer purchases_**, potentially considering a lower profit margin to stimulate higher sales volumes. **_Strategic products_** for this market should include **_phones_** and **_chairs_**.
 
-- ***Ineffective Markets***:
-  - **_Africa and EMEA are underperforming_**, with high customer numbers but negative total profits. <br>--> It is recommended to **_investigate the causes_** behind these issues to develop appropriate **_strategies_** for **_either improvement or withdrawal_** from these markets.
+## 2. Giao hàng có đúng hạn không?  
 
-- ***Product Performance***: 
-  - **_Tables_** have shown **_poor performance_** with negative profit margins over the past four years, resulting in losses with each sale <br>--> **_Discontinue_** this product or **_adjust its pricing_**.
-  - The return rate for binders has reached 25% <br>--> **_Investigate the causes_** behind this high return rate and **_implement corrective measures_**.
+**Insight:**  
+- Tỷ lệ giao hàng đúng hạn trung bình của các nhà cung cấp là **100%**.  
 
-- ***APAC-South East Asia Sales Agent***: It is proposed to issue a **_warning to the sales agent_** in this region due to negative profit and a profit margin of only 4%, despite the market's strong performance in key products like copiers, phones, and bookcases. The sales agent should reassess and **_adjust their sales plan_** accordingly.
+**Recommendation:**  
+- Đánh giá toàn bộ danh sách nhà cung cấp để xác định những nhà cung cấp có tỷ lệ giao hàng thấp hơn **100%**.  
+- Tạo báo cáo động để giám sát tỷ lệ giao hàng theo thời gian.  
+
+## 3. Số lượng sản phẩm đã mua đủ chưa & đạt tiêu chuẩn chất lượng không?  
+
+**Insight:**  
+- Một số sản phẩm như **Metal Sheet 1** (*10.3% rejected*) và **Paint - Black** (*8.7% rejected*) có tỷ lệ bị từ chối cao, cần phải xử lý vấn đề.  
+- Các sản phẩm khác như **Flat Washer 1** và **Flat Washer 6** nằm trong nhóm có vấn đề, mặc dù số lượng đặt hàng không lớn nhưng tỷ lệ bị từ chối vẫn đáng chú ý.  
+- Tình trạng này có thể làm gián đoạn sản xuất hoặc phát sinh chi phí bổ sung để đặt hàng bổ sung.  
+
+**Recommendation:**  
+- Trao đổi và yêu cầu cải thiện chất lượng đối với các sản phẩm có tỷ lệ bị từ chối cao như **Metal Sheet 1** và **Paint - Black** với nhà cung cấp.  
+- Áp dụng quy trình kiểm tra chất lượng nghiêm ngặt hơn nhằm hạn chế phát hiện sản phẩm lỗi.  
+- Đề xuất thay thế nhà cung cấp nếu vấn đề chất lượng không cải thiện trong thời gian nhất định.  
+
