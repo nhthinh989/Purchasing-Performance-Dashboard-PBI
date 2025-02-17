@@ -77,6 +77,7 @@ Structure idea
 This is implementation and review stage. Prototype and Review dashboard multiple times to achieve the final dashboard.
 
 <div id='dashboard'/>
+  
 ## **III. DASHBOARD**
 ### **Data Modeling**
 <img width="451" alt="Image" src="https://github.com/user-attachments/assets/3519aa05-6645-43db-8768-e28d952cbf40" />
@@ -88,6 +89,7 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 <img width="653" alt="Image" src="https://github.com/user-attachments/assets/a365829b-e380-4e2f-9f41-60d84657d300" />
 
 <div id='insight'/>
+  
 ## **IV. INSIGHTS & RECOMMENDATIONS**
 ## 1. Chi phí sản phẩm và giao hàng có được tối ưu hóa không?
 
