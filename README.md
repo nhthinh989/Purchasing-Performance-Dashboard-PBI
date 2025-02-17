@@ -1,5 +1,13 @@
 # Procurement-Performance-Dashboard-PBI
 
+## Table of Contents:
+1. [INTRODUCTION](#data)
+2. [DESIGN THINKING APPROACH](#d_thinking)
+3. [DASHBOARD](#dashboard)
+4. [INSIGHTS & RECOMMENDATIONS](#insight)
+
+<div id='data'/>
+
 ## **I.INTRODUCTION**
 In this project, a _**operation dashboard**_ was developed using _**Design Thinking**_ approach and _**Power BI**_ tools (**_DAX_**, **_Power Query_**, and **_Visualization_** tools) to analyze **_global sales performance_** over 4 years. The dashboard aimed to assist senior managers in **_understanding business performance by region, product, and sales personnel,_** which led to **_decisions_** in **_Market expansion_**, **_Market optimization_**, and **_Product selection_**.
 
@@ -17,6 +25,8 @@ The dataset (as attachment) contains global sales information of Superstore, inc
 - People: a table containing information about sales representatives in each region
 - Returns: a table recording transactions that were returned
 
+<div id='d_thinking'/>
+  
 ## **II.DESIGN THINKING APPROACH**
 ### Stage 1: Empathize
 |5W1H|---|
@@ -66,6 +76,7 @@ Structure idea
 ### Stage 4: Prototype & Review
 This is implementation and review stage. Prototype and Review dashboard multiple times to achieve the final dashboard.
 
+<div id='dashboard'/>
 ## **III. DASHBOARD**
 ### **Data Modeling**
 <img width="451" alt="Image" src="https://github.com/user-attachments/assets/3519aa05-6645-43db-8768-e28d952cbf40" />
@@ -76,6 +87,7 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 ### **View 2: Vendor Analysis**
 <img width="653" alt="Image" src="https://github.com/user-attachments/assets/a365829b-e380-4e2f-9f41-60d84657d300" />
 
+<div id='insight'/>
 ## **IV. INSIGHTS & RECOMMENDATIONS**
 ## 1. Chi phí sản phẩm và giao hàng có được tối ưu hóa không?
 
