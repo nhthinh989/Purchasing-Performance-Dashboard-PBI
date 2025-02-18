@@ -1,4 +1,4 @@
-# Procurement-Performance-Dashboard-PBI
+# Purchasing-Performance-Dashboard-PBI
 
 ## Table of Contents:
 1. [INTRODUCTION](#data)
@@ -29,49 +29,20 @@ The dataset (as attachment) contains global sales information of Superstore, inc
   
 ## **II.DESIGN THINKING APPROACH**
 ### Stage 1: Empathize
-|5W1H|---|
-|---|---|
-|Who will be viewing this Dashboard?|	Senior managers (Purchasing Manager; Supply Chain Manager; Operations Manager...)|
-|If we had to choose only one key Stakeholder, who would it be?| Purchasing Manager|
-|What problem does this Dashboard solve?	| Nắm bắt tình hình tổng quan ở bộ phận thu mua<br>Đánh giá chất lượng của nhà cung cấp |
-|Describe the problem in one sentence |	Giúp Purchasing manager nắm bắt tình hình tổng quan trong bộ phận mua sắm. Đồng thời đánh giá lại nhà cung cấp cho phù hợp để phát triển chiến lược hoạt động của công ty hơn nữa.|
-|When and where will Stakeholders view this Dashboard?|1. Khi xem xét hiệu suất của phòng ban trong cuộc họp hàng tuần hoặc hàng tháng<br>2. Đánh giá TotalDue|
-|WHY do you choose this metric?|Cần phải giám sát chi tiêu cho các công việc mới có thể tối ưu một cách tốt nhất hiệu suất công việc|
+![Image](https://github.com/user-attachments/assets/90789b12-1a54-4c3b-bc51-fe8e8692db68)
+![Image](https://github.com/user-attachments/assets/dcdfa52b-43e9-4f37-9c45-efb81eeff9c2)
 
-Dimension Data Group
-|**Group 1** - Location|**Group 2** - Product|**Group 3** - Salesman|**Group 4** - Time|
-|:---:|:---:|:---:|:---:|
-|_Market<br>Region<br>Country_|	_Product<br>Product Category_	|_Sales person_|_YoY_|
-
-Define Point of View
-|View	|Description	|	Why	|
-|---|:---:|---|
-|**View1**| Overview|	Đánh giá hiệu suất của Bộ phận mua sắm|			
-|**View2**| Vendor Analysis|	Đánh giá chất lượng nhà cung cấp để tối ưu hóa giá sản phẩm, thời gian giao hàng.|		
-
-Growth Formula
-|Northstar Metric:|Revenue|
-|---|---|
-|View 1 breakdown	| Total Due & Breakdown, Shipping Cost và On-time delivery Overall|
-|View 2 breakdown	| Total Due by Vendor|
+### Stage 2: Define Point of View
+![Image](https://github.com/user-attachments/assets/8f2c30fe-9a4d-4059-a7b2-5cf7a698d8c2)
+![Image](https://github.com/user-attachments/assets/61ec22da-a5d8-48c0-b0d4-272184a97b45)
+![image](https://github.com/user-attachments/assets/c07b1b4b-cdc8-4100-8c81-8d8b6accc9d6)
 
 
 ### Stage 3: Ideate
 Brainstorming
-|Idea Name|Layer 0 dimension| Layer 1 dimension|Layer 2 dimension|
-|---|---|---|---|
-|View 1: Market| 1. Total Due<br>2. Average Lead time<br>3.On-time delivery<br>4. Total Shipping Cost<br>5.Total Order<br>6.Total Tax|1. Shipping cost by vendor<br>2. Breakdown of TotalDue<br>|1. TotalDue by time (Year/Quater/Month/Day)<br>Rejection by Product|
-|View 2: Product|1. Total Vendor<br>- Active and not<br>- Prefer and not<br>2. Rating Vendor|1. Subtotal by Vendor<br>2. Standard price and Last Receipt Cost of each Vendor produc |Rejection Rate vs Standard Price & Subtotal|
-
+![Image](https://github.com/user-attachments/assets/9b67405c-4bb5-4554-b48d-243b07069622)
 Structure idea
-|---|	Metric 1 | Metric 2	| Metric 3	| Metric 4 |
-|---|---|---|---|---|
-|Scorecard	|TotalDue	|On-time delivery |AverageLeadTime	|ShippingCost|
-
-|Idea Name	| Highly important info|	Important info | Detailed info |
-|---|---|---|---|
-|View 1|1. Breakdown of TotalDue<br>2. AverageLeadTime<br>3.On-time delivery|1. TotalShippingCost<br>2. Total Order|1. TotalDue by time<br>2. Rejection Analysis	|
-|View 2|1. Total vendor<br>2. Total active, prefer & not by vendors<br>3. CreditRating by vendor|1. Subtotal by Vendor<br> |1. Rejection Rate vs Standard Price & Subtotal<br>2. Standard price and Last Receipt Cost of every Vendor product|
+![image](https://github.com/user-attachments/assets/46152ba2-b8eb-4485-86bc-f479e9c8d899)
 
 ### Stage 4: Prototype & Review
 This is implementation and review stage. Prototype and Review dashboard multiple times to achieve the final dashboard.
@@ -83,7 +54,7 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 <img width="451" alt="Image" src="https://github.com/user-attachments/assets/3519aa05-6645-43db-8768-e28d952cbf40" />
 
 ### **View 1: Overview**
-<img width="652" alt="Image" src="https://github.com/user-attachments/assets/ecaecf5c-cc67-4dec-8d73-2d67f333b14c" />
+<img width="631" alt="Image" src="https://github.com/user-attachments/assets/5b73ce56-84fa-43fa-b8c9-6c71f6550e95" />
 
 ### **View 2: Vendor Analysis**
 <img width="653" alt="Image" src="https://github.com/user-attachments/assets/a365829b-e380-4e2f-9f41-60d84657d300" />
@@ -91,47 +62,5 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 <div id='insight'/>
   
 ## **IV. INSIGHTS & RECOMMENDATIONS**
-## 1. Chi phí sản phẩm và giao hàng có được tối ưu hóa không?
 
-### Chi phí Sản phẩm:
-**Insight:**  
-- Hầu hết các sản phẩm có giá khi mua cao hơn giá chuẩn, với chênh lệch trung bình khoảng **1.6** → chi phí nhập hàng chưa được tối ưu hóa.  
-- Một số sản phẩm có mức chênh lệch đáng kể, đạt tới **10.46** (*All-Purpose Bike* của *Green Lake Bike*) → tăng chi phí vận hành & ảnh hưởng lợi nhuận.  
-
-**Recommendation:**  
-- Thương lượng lại với nhà cung cấp để điều chỉnh về giá chuẩn.  
-- Theo dõi các trường hợp vượt chuẩn và áp dụng quy trình kiểm tra giá trước khi đặt hàng.  
-- Tạo báo cáo cảnh báo cho các sản phẩm có chi phí nhập vượt mức chuẩn.  
-
-### Chi phí Giao hàng:
-**Insight:**  
-- Chi phí giao hàng lớn nhất đến từ *Cargo Transport 5* (**0.73M**), chiếm phần lớn chi phí vận chuyển so với các công ty khác như:  
-  - *ZY - Express*: **0.34M**  
-  - *Overnight J-FAST*: **0.27M**  
-
-**Recommendation:**  
-- So sánh và đánh giá các nhà cung cấp để tìm ra giải pháp tối ưu hơn về chi phí.  
-- Cân nhắc hợp nhất lô hàng hoặc thương lượng giá với *Cargo Transport 5*.  
-
-
-## 2. Giao hàng có đúng hạn không?  
-
-**Insight:**  
-- Tỷ lệ giao hàng đúng hạn trung bình của các nhà cung cấp là **100%**.  
-
-**Recommendation:**  
-- Đánh giá toàn bộ danh sách nhà cung cấp để xác định những nhà cung cấp có tỷ lệ giao hàng thấp hơn **100%**.  
-- Tạo báo cáo động để giám sát tỷ lệ giao hàng theo thời gian.  
-
-## 3. Số lượng sản phẩm đã mua đủ chưa & đạt tiêu chuẩn chất lượng không?  
-
-**Insight:**  
-- Một số sản phẩm như **Metal Sheet 1** (*10.3% rejected*) và **Paint - Black** (*8.7% rejected*) có tỷ lệ bị từ chối cao, cần phải xử lý vấn đề.  
-- Các sản phẩm khác như **Flat Washer 1** và **Flat Washer 6** nằm trong nhóm có vấn đề, mặc dù số lượng đặt hàng không lớn nhưng tỷ lệ bị từ chối vẫn đáng chú ý.  
-- Tình trạng này có thể làm gián đoạn sản xuất hoặc phát sinh chi phí bổ sung để đặt hàng bổ sung.  
-
-**Recommendation:**  
-- Trao đổi và yêu cầu cải thiện chất lượng đối với các sản phẩm có tỷ lệ bị từ chối cao như **Metal Sheet 1** và **Paint - Black** với nhà cung cấp.  
-- Áp dụng quy trình kiểm tra chất lượng nghiêm ngặt hơn nhằm hạn chế phát hiện sản phẩm lỗi.  
-- Đề xuất thay thế nhà cung cấp nếu vấn đề chất lượng không cải thiện trong thời gian nhất định.  
 
