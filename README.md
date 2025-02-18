@@ -54,10 +54,10 @@ This is implementation and review stage. Prototype and Review dashboard multiple
 <img width="451" alt="Image" src="https://github.com/user-attachments/assets/3519aa05-6645-43db-8768-e28d952cbf40" />
 
 ### **View 1: Overview**
-<img width="631" alt="Image" src="https://github.com/user-attachments/assets/5b73ce56-84fa-43fa-b8c9-6c71f6550e95" />
+![Image](https://github.com/user-attachments/assets/7e71961a-e4ca-4fa4-87c6-2974906de653)
 
 ### **View 2: Vendor Analysis**
-<img width="653" alt="Image" src="https://github.com/user-attachments/assets/a365829b-e380-4e2f-9f41-60d84657d300" />
+![Image](https://github.com/user-attachments/assets/af6f1b5e-52af-426b-ba59-0b46915f5c05)
 
 <div id='insight'/>
   
