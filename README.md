@@ -14,11 +14,6 @@ In this project, a _**operation dashboard**_ was developed using _**Design Think
 ### **1. BUSINESS QUESTIONS**
 Adventure Works Cycles is a bicycle manufacturing company that operates across multiple business functions. Senior management of Adventure Works Cycles requires a detailed understanding of the company’s procurement efficiency to optimize inventory management and cost control in relation to:
 
-- Ensuring sufficient procurement of raw materials and goods to meet sales demand
-- Optimizing purchase costs while maintaining quality standards
-- Aligning procurement schedules with production and sales timelines
-- Identifying potential inefficiencies in the purchasing process
-
 ### **2. DATASET**
 AdventureWorks database supports standard online transaction processing scenarios for Adventure Works Cycles. Scenarios include Manufacturing, Sales, Purchasing, Product Management, Contact Management, and Human Resources.
 
