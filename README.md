@@ -17,7 +17,7 @@ Adventure Works Cycles is a bicycle manufacturing company that operates across m
 ### **2. DATASET**
 AdventureWorks database supports standard online transaction processing scenarios for Adventure Works Cycles. Scenarios include Manufacturing, Sales, Purchasing, Product Management, Contact Management, and Human Resources.
 
-Dataset: adventureworks2019 (public Google BigQuery dataset)
+Dataset: adventureworks2019 (public Google BigQuery dataset).
 
 Dataset dictionary: https://drive.google.com/file/d/1bwwsS3cRJYOg1cvNppc1K_8dQLELN16T/view
 
